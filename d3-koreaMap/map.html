@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.2/css/all.min.css">
+
+        <!-- jquery -->
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+        <!-- d3 -->
+        <script src="https://d3js.org/d3.v6.min.js"></script>
+        <script src="https://d3js.org/topojson.v1.min.js"></script>
+        <title>Document</title>
+
+        <style>
+            body{height:100vh;overflow: hidden;}
+
+            #map{
+                position: absolute;
+                top:50%;left:50%;
+                transform: translate(-50%,-50%);
+            }
+
+            .region {
+                fill: #ccc;
+                stroke: #fff;
+                stroke-width: 1px;
+            }
+
+            .highlighted {
+                fill: #939E17;
+            }
+        </style>
+    </head>
+<body>
+
+    <div id="map"></div>
+
+    <!-- script -->
+    <script src="map.js"></script>
+</body>
+</html>
