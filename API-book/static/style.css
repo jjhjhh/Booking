@@ -1,0 +1,162 @@
+*{margin:0; padding:0; border-collapse: none;box-sizing: border-box; color:#544E4E}
+::-webkit-scrollbar {
+    display: none;
+}
+
+html{scroll-behavior: smooth}
+.f{display: flex; flex-wrap: wrap;}
+.btw{display: flex;justify-content: space-between;}
+.wrap{max-width:1100px;margin:0 auto}
+.flex{display: flex;flex-wrap: wrap;}
+.wrap2{max-width:1300px;margin:0 auto}
+.wrap3{max-width:900px;margin:0 auto}
+.h{height:20vh}
+.hh{height:10vh}
+/* .b{border:1px solid black */
+a{text-decoration: none;cursor: pointer;}
+ul{list-style: none;}
+.full{width:100%;height:100vh;position: relative;overflow: hidden;}
+
+/* ======= header & footer ======= */
+
+/* header */
+header{ position: fixed;z-index: 1;width:100%;background:rgba(255,255,255,.9); z-index: 100;}
+header nav{height:70px}
+header nav ul{float: right;width:8%;margin:10px 100px 0 0;}
+header nav li{margin:0 10px}
+header nav a{font-size:14px}
+header nav select{border:none;background: none;}
+
+header .menu{height:50px}
+header > div > div > div{width:20%;}
+
+/* logo */
+header .menu > div:nth-child(1){margin:-15px 0}
+
+header .menu > ul{width:60%;display: flex;justify-content: space-around;}
+header .menu > ul > li{width:calc(100%/5);text-align: center;position: relative;}
+header .menu > ul > li > a{line-height: 30px;padding:20px;font-size: 18px;font-weight: bold;}
+header .menu > ul > li > a:hover{border-bottom:5px solid #426513;color:#939E17}
+header .menu > ul > li > a:hover span{color:#939E17}
+
+/* footer */
+footer{height:150px;width:100%;background:#3B3636;text-align: center;padding-top:45px;position: relative;margin-top:15vh}
+footer h2{color:white;font-weight: lighter;font-size:15px}
+footer p{color:#E0E0E0;font-weight: lighter;font-size:10px;margin-top:10px}
+footer .top{position: absolute;right:15%;top:30%}
+
+/* sub-menu */
+.sub{
+    all:unset;
+    position: absolute;display: flex;justify-content: space-between;transform: translate(-50%,0);
+    left:50%;top:100%;
+    background:rgba(255,255,255,.8);
+    width:100%;
+    height:0;
+    overflow: hidden;
+    z-index: 100;
+}
+
+.sub>div:nth-child(1){
+    width:20%;text-align: center;padding:95px 50px;color:white;font-weight: bold;
+    background-blend-mode: multiply;
+    background:rgba(255, 170, 0, 0.7)
+}
+.sub>div:nth-child(3){width:20%;height:100%;position: relative;}
+.sub>div:nth-child(3) a{bottom:10px;position: absolute;}
+.sub>div:nth-child(2){width:50%;display: flex;justify-content: space-around;}
+
+.sub ul{width:calc(100%/5);text-align: center;}
+.sub li{width:100%;}
+.sub a{line-height: 40px;font-size: 15px;font-weight: bold;}
+.sub li>div{width:80%;height:30px;margin:0 auto;background:#395810;color:white;padding:5px;margin-top:10px;font-weight: bold;font-size: 15px;}
+
+header .menu #one:hover ~ .sub-1{height:250px; z-index: 1;}
+header .menu #two:hover ~ .sub-2{height:250px; z-index: 1;}
+header .menu #three:hover ~ .sub-3{height:250px; z-index: 1;}
+header .menu #four:hover ~ .sub-4{height:250px; z-index: 1;}
+.sub:hover{height:250px}
+
+/* ================= main page ============== */
+/* visual */
+.visual{
+    position: relative;
+    width:100%;height:100vh;background-image:url('back.jpg');
+    background-size: cover;background-repeat: no-repeat;background-position: center;
+    background-blend-mode: multiply;
+    background-color:rgba(0,0,0,.3);
+    filter:contrast(120%)
+}
+.visual .txt{position: absolute;transform: translate(-50%,-50%);left:50%;top:45%;width:1100px}
+.visual h1{color:white;font-size:30px;line-height: 50px;font-weight: 700;}
+.visual h1 span{color:white;font-size: 1.4em;}
+
+.visual .main-search{
+    position: absolute;transform: translate(-50%,-50%);left:50%;bottom:10%;
+    width:1100px;height:50px;
+    border:3px solid #544E4E;
+}
+.visual form{width:100%;height:100%}
+.visual input{width:92%;height:100%;background: white;border:none;text-indent: 18px;font-size:18px}
+.visual button{width:8%;border:none;height:100%;background:#544E4E;margin:0}
+.visual img{width:40px;}
+
+/* ============ map ============*/
+.st .wrap > div:nth-child(1){width:45%}
+.st .wrap > div:nth-child(2){width:55%}
+
+.st .r{padding:30px 80px}
+.st h2{margin-bottom:40px;font-size:25px;text-indent: 4%;}
+
+.st .map{width:120%;height:550px;background:gray;margin-left:-20%}
+
+.st ul{width:100%}
+.st ul li{width:calc(100%/6);}
+.st ul i{font-size:30px;margin-bottom:10px}
+.st ul button{font-weight: bold;font-size:13x}
+.st li{text-align: center;margin:0 auto;margin-bottom:50px;line-height: 25px;}
+
+.main-search i{color:white;}
+
+/* ================= sub_page map.html ================= */
+.map2 > div{height:100vh}
+.map2 > div:nth-child(1){width:50%}
+.map2 > div:nth-child(2){width:50%}
+.map2 .area{width:90%;height:600px;background:#f2f2f2}
+
+.map2 .r > div{margin:0 auto}
+.map2 h2{text-align: center;margin:0 auto; background-color: #748A15;width:50%;color:white;font-size:18px;padding:5px;font-weight: normal;border-radius: 10px;}
+.map2 .r > div:nth-child(1) h2{background:#426513}
+
+.map2 .r > div{height:30%}
+.map2 ul{width: 100%}
+.map2 li{width:calc(100%/4);padding:20px}
+.map2 .r img{width:120px;height:90px;}
+
+.map2 .post span{font-size:.8em;margin-left:5px;color:gray}
+.map2 .post li{font-size:.8em}
+.map2 .post p{font-size: 1.1em;font-weight: bold;}
+
+.map2 .exhibi img{height:150px}
+.map2 .exhibi li:nth-child(odd) img{margin-top:20px}
+
+/* ================= sub_page view.html ================= */
+.view .tp {height:15vh}
+.view .tp h2{font-size:2em}
+.view .tp h2 span{font-size:.5em;margin-left:10px;color:gray}
+.view .tp p{margin-top:10px;font-size:.9em}
+.view .tp i{margin:5px;font-size:25px}
+
+.view .md{margin:0 auto;width:60%}
+.view .md #main_img{width:100%;height:50vh;border:1px solid gray}
+
+.view .md ul{width: 80%;margin:0 auto;margin-top:20px}
+.view .md li{width:calc(100%/5);text-align: center;}
+.view .md ul img{width:80px;height:80px;border:1px solid #333;}
+
+.view .bt ul{width: 100%;}
+.view .bt li{width:calc(100%/4);text-align: center;border:1px solid silver;padding:10px;border-left:none;border-right:none;}
+.view .bt ul img{width:60px;height:60px;border:1px solid #333;}
+.view .bt button{background:none;border:none;height:100%;width:100%;font-size:1em;font-weight: bold;border-left:1px solid silver;color:gray}
+.view .bt li:hover{border-bottom:1px solid #395810;}
+.view .bt li:hover button{color:#395810}

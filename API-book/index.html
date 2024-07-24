@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="static/style.css">
+    <link rel="stylesheet" href="static/style2.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.2/css/all.min.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <title>Document</title>
+</head>
+<body class="book">
+
+<!-- header -->
+<header>
+    <div class="wrap2">
+        <nav><ul class="btw"> <li><a href="#">join</a></li> <li><a href="#">login</a></li> <li><select><option value="kor">KOR</option><option value="eng">ENG</option></select></li></ul></nav>
+        <div class="menu btw">
+            <div><a href="index.html"><img src="static/logo.png" alt="logo"></a></div>
+            <!-- book.html -->
+            <ul><li id="one"><a href="book.html?cate=문학&cate=예술&tag=문학/예술">책/여행지</a></li>
+                <div class="sub sub-1 btw"><div>책이나 여행지를 취향에 따라 구분하여 볼 수 있는 기능</div>
+                    <div><ul>
+                            <li><div>책</div></li>
+                            <li><a href="book.html?cate=문학&cate=예술&tag=문학/예술">문학/예술</a></li>
+                            <li><a href="book.html?cate=자연과학&cate=기술과학&tag=자연과학/기술과학">자연과학/기술과학</a></li>
+                            <li><a href="book.html?cate=사회과학&cate=역사&tag=사회과학/역사">사회과학/역사</a></li>
+                            <li><a href="book.html?cate=철학&cate=종교&tag=철학/종교">철학/종교</a></li>
+                            <li><a href="book.html?cate=언어&cate=총류&tag=언어/총류">언어/총류</a></li>
+                        </ul><ul>
+                            <li><div>여행지</div></li>
+                            <li><a href=".">자연관광</a></li>
+                            <li><a href=".">역사관광</li>
+                            <li><a href=".">휴양관광</a></li>
+                            <li><a href=".">체험관광</a></li>
+                            <li><a href=".">건축/조형물</a></li>
+                        </ul><ul></ul><ul></ul><ul></ul></div><div></div>
+                </div>
+                <!-- map.html -->
+                <li id="two"><a href=".">전국지도</a></li>
+                <div class="sub sub-2 btw"><div>자신의 성향에 따라 독서유형을 구분한 맞춤형 취향 정보</div><div><ul></ul>
+                        <ul><li><div>지도조회</div></li>
+                            <li><a href="map.html">쉽게보는 관광현황</a></li>
+                        </ul><ul></ul><ul></ul><ul></ul>
+                    </div><div></div>
+                </div>
+                <!-- book.html -->
+                <li id="three"><a href=".">MB<span>ook</span>TI</a></li>
+                <div class="sub sub-3 btw"><div>책이나 여행지를 취향에 따라 구분하여 볼 수 있는 기능</div>
+                    <div><ul>
+                            <li><div>야외/실내</div></li>
+                            <li><a href="#">야외공간</a></li>
+                            <li><a href="#">실내공간</a></li>
+                        </ul><ul>
+                            <li><div>현실/상상</div></li>
+                            <li><a href="book.html?cate=사회과학&cate2=역사&tag=실화바탕">실화바탕</a></li>
+                            <li><a href="book.html?cate=문학&tag=허구적인">허구적인</a></li>
+                        </ul><ul>
+                            <li><div>지식/감성</div></li>
+                            <li><a href="book.html?cate=자연과학&cate2=기술과학&tag=지식을주는">지식을 주는</a></li>
+                            <li><a href="book.html?cate=예술&cate2=종교&tag=감성적인">감성적인</a></li>
+                        </ul><ul>
+                            <li><div>자연/인문</div></li>
+                            <li><a href="#">자연친화</a></li>
+                            <li><a href="#">인문</a></li>
+                        </ul><ul></ul></div>
+                    <div><a href=".">테스트 하러가기>></a></div>
+                </div>
+                <li id="four"><a href="#">커뮤니티</a></li>
+                <div class="sub sub-4 btw">
+                    <div>여행/도서 리뷰를 작성하고 공유하며 서로의 경험과 의견을 나눌 수 있는 커뮤니티</div><div><ul></ul>
+                        <ul>
+                            <li><div>소통채널</div></li>
+                            <li><a href="#">장소별/도서별리뷰</a></li>
+                            <li><a href="#">독서모임</a></li>
+                        </ul><ul>
+                            <li><div>정보나눔터</div></li>
+                            <li><a href="#">Q & A</a></li>
+                            <li><a href="#">자료실</a></li>
+                        </ul><ul>
+                            <li><div>공지사항</div></li></ul><ul></ul>
+                    </div><div></div></div><li id="five"><a href="#">제품정보</a></li></ul><div></div></div></div>
+</header>
+
+    <div class="s-visual" style="background-image:url('static/sub.jpg')">
+        <h1 id="category-title">책 - 실화바탕</h1>
+    </div>
+
+    <div class="wrap flex" id="book-list">
+        <div class="box">
+            <img src="https:\/\/image.aladin.co.kr\/product\/16868\/13\/cover\/k532534979_1.jpg" alt="">
+            <h3>제목</h3>
+            <p>지은이</p>
+        </div>
+    </div>
+
+    <div class="page-btn flex" style="text-align: center;">
+        <button>1</button>
+        <button>2</button>
+        <button>3</button>
+    </div>
+
+   
+
+<!-- footer -->
+    <div class="h"></div>
+    <footer>
+        <div class="top"><i class="icon-"></i></div>
+        <h2>책/여행지  |  전국지도  |  MBookTI  |  커뮤니티  |  제품정보</h2>
+        <p>PUKYONG NATIONAL UNIVERSITY<br>
+            부산광역시 남구 용소로 45(48513)</p>
+    </footer>
+    <script src="static/script/book.js"></script>
+    
+</body>
+</html>

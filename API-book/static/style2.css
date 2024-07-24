@@ -1,0 +1,48 @@
+/* 서브페이지 관련 CSS */
+.s-visual{height:50vh;margin-bottom:15vh;position: relative;background-repeat: no-repeat;background-position: center;background-size: cover;background-blend-mode: multiply;background-color:rgba(0,0,0,.1)}
+.s-visual h1{position: absolute;transform: translate(-50%,-50%);left:50%;top:65%;font-size:3em;font-weight: bold;color:white}
+.fa-heart{color:#FFC63C}
+
+.no-image{width:100%;background:#e6e6e6;text-align: center;height:220px;font-size:3em;line-height: 220px;font-weight: bold;}
+.no-image2{width:100%;background:#e6e6e6;text-align: center;height:90px;font-size:1.3em;line-height: 95px;font-weight: bold;}
+
+/* map */
+.area{position: relative;}
+.map2 h2 span{color:white}
+.map2 h2 a{color:white !important}
+
+/* book */
+.book .box{width:calc(100%/5);min-height:320px;padding:30px}
+.book .box:nth-child(2n){margin-top:30px}
+.book .box img{width:100%;object-fit: cover;}
+.book .box h3{font-size:1.2em}
+.book .box p{color:silver;font-size:.9em}
+.page-btn button:hover,.page-btn div:hover i{color:#FFC63C}
+
+.page-btn{width:350px;margin:0 auto;padding-top:50px;display: flex;}
+.page-btn button{font-weight: bold;}
+.page-btn div i{font-size:1.5em;margin:7px 10px}
+
+/* mbti */
+.mbti li{height:150px;border-bottom:1px solid silver;margin-bottom:60px;padding:30px 50px}
+.mbti li button{width:80px;height:80px;border:2px solid #FFC63C;color:#FFC63C;border-radius: 80px;font-size:1.2em;background:none;font-weight: bold;}
+.mbti li button:nth-child(1){border-color:#426513;color:#426513}
+.mbti p{font-size:1.6em;font-weight: bold;line-height: 80px;}
+
+.check-green{background: #426513 !important; color:white !important}
+.check-orange{background: #FFC63C !important; color:white !important}
+
+
+
+
+/* tour */
+.region-btn{margin-bottom:10vh}
+.region-btn button{margin:5px;background:none;border:1px solid #426513; padding:5px 10px; border-radius: 40px;}
+
+.page-btn{margin:0 auto;text-align: center;}
+.page-btn button{width:30px;height:30px;font-size:1.1em;background:none;border:none;margin:5px;}
+
+.tour .box{width:calc(100%/3);height:320px;padding:20px;}
+.tour .box img{width:100%;height:220px;object-fit: cover;}
+.tour .box h3{font-size:1.2em}
+.tour .box p{color:silver;font-size:.9em}
